@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+.app {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+.search-box {
+  margin: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+.weather-box {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
